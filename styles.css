@@ -1,0 +1,10 @@
+.container {
+    width: 50%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fefe23;
+
+    text-align: center;
+}
+
