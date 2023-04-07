@@ -73,7 +73,19 @@
 
 /* Our new products */
 
+.flexNewProducts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3em auto;
+    font-size: 2.25rem;
+}
 
+.flexNewProducts .flexSection {
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+}
 
 /* About us information */
 
