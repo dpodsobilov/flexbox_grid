@@ -4,6 +4,107 @@
     margin: 1em auto;
 } 
 
+.btnImg {
+    width: 100%;
+    height: 100%;
+    border: none;
+    -webkit-filter: brightness(100%);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gridItem1:hover .btnImg, 
+.gridItem2:hover .btnImg,
+.gridItem3:hover .btnImg,
+.gridItem4:hover .btnImg,
+.gridItem5:hover .btnImg {
+    -webkit-filter: brightness(40%);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.btnText {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    background-color: #fff;
+    color: black;
+    font-size: 1.25rem;
+    padding: 0.5em 1em;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-image: url(./pictures/Rectangle\ 40.jpg);
+}
+
+.btn2 {
+    background-image: url(./pictures/Rectangle\ 39.jpg);
+}
+
+.btn3 {
+    background-image: url(./pictures/Rectangle\ 41.jpg);
+}
+
+.btn4 {
+    background-image: url(./pictures/Rectangle\ 42.jpg);
+}
+
+.btn5 {
+    background-image: url(./pictures/Rectangle\ 43.jpg);
+}
+
+.gridItem1:hover .btnText,
+.gridItem2:hover .btnText,
+.gridItem3:hover .btnText,
+.gridItem4:hover .btnText,
+.gridItem5:hover .btnText {
+    background-color: #3B2D2D;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+/* Our new products */
+
+
+
+/* About us information */
+
+.flexAbout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5rem 0;
+}
+
+.flexAbout .flexPic {
+    margin: 0 1rem 0 0;
+}
+
+.flexAbout .flexPic img {
+    width: 100%;
+}
+
+.flexAbout .flexText .mainP4 {
+    font-size: 2.25rem;
+}
+
+.flexAbout .flexText .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    max-width: 700px;
+}
+
+
 @media screen and (max-width: 1920px) {
     .gridContainer {
         display: grid;
@@ -198,106 +299,3 @@
         grid-row: 17 / 21;
     }
 }
-
-
-
-.btnImg {
-    width: 100%;
-    height: 100%;
-    border: none;
-    -webkit-filter: brightness(100%);
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.gridItem1:hover .btnImg, 
-.gridItem2:hover .btnImg,
-.gridItem3:hover .btnImg,
-.gridItem4:hover .btnImg,
-.gridItem5:hover .btnImg {
-    -webkit-filter: brightness(40%);
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    -ms-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-
-.btnText {
-    position: absolute;
-    bottom: 1em;
-    left: 1em;
-    background-color: #fff;
-    color: black;
-    font-size: 1.25rem;
-    padding: 0.5em 1em;
-    border: none;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.btn1 {
-    background-image: url(./pictures/Rectangle\ 40.jpg);
-}
-
-.btn2 {
-    background-image: url(./pictures/Rectangle\ 39.jpg);
-}
-
-.btn3 {
-    background-image: url(./pictures/Rectangle\ 41.jpg);
-}
-
-.btn4 {
-    background-image: url(./pictures/Rectangle\ 42.jpg);
-}
-
-.btn5 {
-    background-image: url(./pictures/Rectangle\ 43.jpg);
-}
-
-.gridItem1:hover .btnText,
-.gridItem2:hover .btnText,
-.gridItem3:hover .btnText,
-.gridItem4:hover .btnText,
-.gridItem5:hover .btnText {
-    background-color: #3B2D2D;
-    color: #fff;
-    transition: all 0.4s ease;
-}
-
-/* Our new products */
-
-
-
-/* About us information */
-
-.flexAbout {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 5rem 0;
-}
-
-.flexAbout .flexPic {
-    margin: 0 1rem 0 0;
-}
-
-.flexAbout .flexPic img {
-    width: 100%;
-}
-
-.flexAbout .flexText .mainP4 {
-    font-size: 2.25rem;
-}
-
-.flexAbout .flexText .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-size: 1.5rem;
-    max-width: 700px;
-}
-
