@@ -82,9 +82,29 @@
 }
 
 .flexNewProducts .flexSection {
-    background-color: blue;
+    background-color: lightblue;
     text-align: center;
     justify-content: center;
+}
+
+.flexNewProducts .flexSection p {
+    padding: 0;
+    margin: 0;
+}
+
+.flexNewProducts .flexSection .flexItemArrLeft,
+.flexNewProducts .flexSection .flexItemArrRight {
+    position: relative;
+    padding: 0 0.5em;
+    cursor: pointer;
+}
+
+.flexItemArrLeft {
+    position: absolute;
+    background-image: url(./pictures/arrow_left.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 /* About us information */
